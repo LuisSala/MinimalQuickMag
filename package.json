@@ -1,0 +1,24 @@
+{
+  "author": "Luis Sala <luis.sala@alfresco.com> (http://alfresco.com)",
+  "name": "QuickMag",
+  "description": "Mobile magazine app for Alfresco.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LuisSala/QuickMag.git"
+  },
+  "main": "preview-server.js",
+  "engines": {
+    "node": ">=0.4.11"
+  },
+	"directories" : {
+	"lib" : "lib"
+  },
+  "dependencies": {
+	"http-proxy": "0.7.6",
+	"less": "1.1.6",
+	"express": "2.5.2",
+    "mime":""
+  },
+  "devDependencies": {}
+}

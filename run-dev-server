@@ -1,0 +1,4 @@
+#! /bin/sh
+
+echo 'Running development preview server...'
+node ./preview-server.js
